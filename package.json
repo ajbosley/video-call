@@ -1,20 +1,31 @@
 {
   "name": "video-call",
+  "description": "ReactJS video call application",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "@fortawesome/fontawesome-free": "5.13.x",
+    "@fortawesome/fontawesome-svg-core": "1.2.x",
+    "@material-ui/core": "4.9.x",
+    "axios": "0.19.x",
+    "express": "4.17.x",
+    "node-sass": "4.14.x",
+    "react": "16.13.x",
+    "react-dom": "16.13.x",
+    "react-router-dom": "5.2.x",
+    "react-scripts": "3.4.x",
+    "react-toasts": "3.0.x",
+    "simple-peer": "9.7.x",
+    "socket.io": "2.3.x",
+    "socket.io-client": "2.3.x",
+    "webrtc-adapter": "7.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "react-scripts build && node server"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,9 +37,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ]
   }
 }
