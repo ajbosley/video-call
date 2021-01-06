@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-free": "5.13.x",
     "@fortawesome/fontawesome-svg-core": "1.2.x",
     "@material-ui/core": "4.9.x",
-    "axios": "0.19.x",
+    "axios": "0.21.x",
     "express": "4.17.x",
     "node-sass": "4.14.x",
     "react": "16.13.x",
