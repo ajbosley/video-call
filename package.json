@@ -13,7 +13,7 @@
     "react": "16.13.x",
     "react-dom": "16.13.x",
     "react-router-dom": "5.2.x",
-    "react-scripts": "3.4.x",
+    "react-scripts": "5.0.x",
     "react-toasts": "3.0.x",
     "simple-peer": "9.7.x",
     "socket.io": "2.3.x",
